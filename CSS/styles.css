@@ -47,8 +47,6 @@ ol {
 	width: 1px;
 }
 .header {
-	display: flex;
-	align-items: center;
 	padding: 24px 0;
 	border-bottom: 1px solid #e7e9fc;
 }
@@ -87,6 +85,10 @@ ol {
 	margin-right: 40px;
 }
 .nav-site {
+	font-weight: 500;
+	font-size: 16px;
+
+	color: #2e2f42;
 }
 .nav-site {
 	background: #ffffff;
@@ -115,6 +117,12 @@ ol {
 	margin-right: 40px;
 }
 .address-item {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+
+	letter-spacing: 0.02em;
+
 	color: #434455;
 }
 
@@ -222,9 +230,6 @@ ol {
 	line-height: 24px;
 }
 
-.cellar {
-}
-
 .logotype-cellar {
 	font-family: "Raleway";
 
@@ -240,16 +245,6 @@ ol {
 
 .logo-cellar {
 	color: #4d5ae5;
-}
-
-.description-footer {
-	font-weight: 400;
-
-	line-height: 24px;
-
-	letter-spacing: 0.02em;
-
-	color: #e7e9fc;
 }
 
 .dark-back {
@@ -277,12 +272,6 @@ ol {
 	border: 1px solid #e7e9fc;
 	border-radius: 4px;
 	line-height: 1.5;
-}
-
-.list-product {
-}
-
-.item-product {
 }
 
 .title-img {
@@ -313,7 +302,7 @@ ol {
 }
 
 .container {
-	width: 1188px;
+	width: 1158px;
 	margin-left: auto;
 	margin-right: auto;
 	padding: 0 15px;
@@ -330,6 +319,7 @@ ol {
 }
 
 .notitle {
+	display: flex;
 	position: absolute;
 	width: 1px;
 	height: 1px;
@@ -352,26 +342,21 @@ ol {
 	font-weight: 500;
 	font-size: 20px;
 	line-height: 1.2;
-
+	letter-spacing: 0.02em;
 	margin-bottom: 8px;
 }
 .feature-text {
 	color: #434455;
-	width: 264px;
 }
 .examplex-section {
 	padding-bottom: 120px;
 }
 .section-team {
+	background: #f4f4fd;
+	max-width: 100%;
+	height: auto;
 	padding-bottom: 120px;
 	padding-top: 120px;
-}
-.team {
-	background: #f4f4fd;
-	text-align: -webkit-match-parent;
-	display: block;
-	min-width: 100%;
-	height: auto;
 }
 
 .team-title {
@@ -381,20 +366,14 @@ ol {
 	text-align: center;
 	text-transform: capitalize;
 	margin-bottom: 72px;
-	margin-top: 120px;
 }
 
 .team-list {
 	display: flex;
-
-	justify-content: center;
-	align-items: center;
-	padding: 0px 0px 32px;
-	gap: 32px;
+	gap: 24px;
 }
 
 .team-item:not(:nth-child(4n)) {
-	margin-right: 24px;
 }
 .team-list > li {
 	background: #ffffff;
@@ -402,7 +381,6 @@ ol {
 	border-radius: 0px 0px 4px 4px;
 }
 .team-item:not(:nth-child(4n)) {
-	margin-right: 24px;
 }
 
 .text-container {
@@ -426,6 +404,7 @@ ol {
 	color: #434455;
 }
 .cellar {
+	background: #2e2f42;
 	padding: 100px 0;
 }
 .logotype-cellar {
@@ -452,10 +431,10 @@ ol {
 	color: #f4f4fd;
 }
 .description-footer {
+	display: inline-block;
 	font-weight: 400;
 
 	color: #e7e9fc;
-	display: inline-block;
 	width: 264px;
 }
 
@@ -469,7 +448,7 @@ ol {
 	text-align: center;
 
 	text-transform: capitalize;
-	padding-bottom: 72px;
+	margin: 72px;
 }
 .ex-list {
 	display: flex;
@@ -477,4 +456,78 @@ ol {
 
 .ex-img:not(:nth-child(3n)) {
 	margin-right: 24px;
+}
+.section-portfolio {
+	padding-top: 96px;
+	padding-bottom: 120px;
+}
+
+.list-btn {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	margin-bottom: 72px;
+}
+.btn-item:not(:nth-child(5n)) {
+	margin-right: 24px;
+}
+
+.buttons-nav {
+	background: #f4f4fd;
+	cursor: pointer;
+	border: 1px solid #e7e9fc;
+	border-radius: 4px;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	padding: 12px 24px;
+	letter-spacing: 0.04em;
+	color: #4d5ae5;
+	font-family: inherit;
+}
+
+.buttons-nav:focus {
+	color: #4d5ae5;
+}
+.buttons-nav:hover {
+	color: #ffffff;
+	background: #404bbf;
+	box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+	border-radius: 4px;
+}
+.list-product {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	margin-bottom: 72px;
+	padding-left: 0;
+	margin-right: 0;
+
+	gap: 24px;
+}
+.item-product {
+	flex-basis: calc(100% / 3 - 24px);
+	margin-left: 24px;
+	margin-top: 48px;
+}
+.title-img {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+	margin-bottom: 8px;
+}
+
+.title-service {
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: #434455;
+}
+.block-img {
+	padding-bottom: 32px;
+	padding-left: 16px;
+	padding-top: 32px;
+	border: 1px solid #e7e9fc;
+	border-top: 0;
 }
