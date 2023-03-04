@@ -22,9 +22,7 @@ ol {
 	margin-top: 0;
 	padding-left: 0;
 }
-img {
-	display: block;
-}
+
 a {
 	text-decoration: none;
 }
@@ -36,6 +34,7 @@ ol {
 img {
 	max-width: 100%;
 	height: auto;
+	display: block;
 }
 .visually-hidden {
 	position: absolute;
@@ -143,7 +142,8 @@ img {
 	text-align: center;
 	background: #2e2f42;
 
-	padding: 180px 0;
+	padding-top: 188px;
+	padding-bottom: 188px;
 }
 
 .header-title {
@@ -281,14 +281,6 @@ img {
 	font-size: 20px;
 }
 
-.title-service {
-	font-weight: 400;
-
-	line-height: 24px;
-
-	color: #434455;
-}
-
 .hearo-btn:focus {
 	color: #4d5ae5;
 }
@@ -394,8 +386,6 @@ img {
 }
 
 .team-text {
-	font-size: 16px;
-
 	text-align: center;
 
 	color: #434455;
@@ -417,14 +407,6 @@ img {
 	margin-bottom: 16px;
 }
 .logo-cellar {
-	font-family: "Raleway";
-	font-weight: 800;
-	font-size: 18px;
-	line-height: 1.16;
-	display: flex;
-	align-items: center;
-	letter-spacing: 0.03em;
-	text-transform: uppercase;
 	color: #f4f4fd;
 }
 .description-footer {
@@ -454,7 +436,6 @@ img {
 	margin-right: 24px;
 }
 .section-portfolio {
-	display: block;
 	padding-top: 96px;
 	padding-bottom: 120px;
 }
@@ -499,8 +480,8 @@ img {
 	text-align: center;
 	margin-bottom: 72px;
 	padding-left: 0;
-	margin-right: 0;
-	gap: 24px;
+
+	gap: 48px 24px;
 }
 .item-product {
 	width: calc((100% - 48px) / 3);
