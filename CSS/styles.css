@@ -234,15 +234,15 @@ img {
 
 .logotype-cellar {
 	font-family: "Raleway";
-
 	font-weight: 800;
 	font-size: 18px;
-	line-height: 21px;
-
+	line-height: 1.16;
+	display: flex;
+	align-items: center;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
-
 	color: #f4f4fd;
+	margin-bottom: 16px;
 }
 
 .logo-cellar {
@@ -274,11 +274,6 @@ img {
 	border: 1px solid #e7e9fc;
 	border-radius: 4px;
 	line-height: 1.5;
-}
-
-.title-img {
-	font-weight: 500;
-	font-size: 20px;
 }
 
 .hearo-btn:focus {
@@ -394,21 +389,7 @@ img {
 	background: #2e2f42;
 	padding: 100px 0;
 }
-.logotype-cellar {
-	font-family: "Raleway";
-	font-weight: 800;
-	font-size: 18px;
-	line-height: 1.16;
-	display: flex;
-	align-items: center;
-	letter-spacing: 0.03em;
-	text-transform: uppercase;
-	color: #4d5ae5;
-	margin-bottom: 16px;
-}
-.logo-cellar {
-	color: #f4f4fd;
-}
+
 .description-footer {
 	display: inline-block;
 
@@ -477,8 +458,7 @@ img {
 	flex-wrap: wrap;
 	display: flex;
 	justify-content: center;
-	text-align: center;
-	margin-bottom: 72px;
+
 	padding-left: 0;
 
 	gap: 48px 24px;
